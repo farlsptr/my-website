@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NIKE SHOES</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 40px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 100px;
+      margin-right: 10px;
+    }
+
+      .logo-title {
+    background-color: white;  
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 15px;
+  }
+
+  .nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav a {
+    color: #000000;
+    padding: 10px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    transition: all ease 0.3s;
+  }
+
+  .nav a:hover{
+    background-color: rgb(39, 39, 39);
+  }
+
+    .top-bar {
+      background-color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #ccc;
+    }
+
+    .top-bar .menu {
+      display: flex;
+      gap: 10px;
+    }
+
+    .product-banner {
+        display: flex;
+        align-items: center;
+    }
+
+    .product-banner img {
+        height: auto;        /* Biar tidak fix tinggi */
+        width: 100%;      /* Ubah sesuai kebutuhan */
+        margin: 0 0px;
+    }
+
+    .main {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+      background-color: #8f8f8f;
+    }
+
+    .left-gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding: 10px;
+    }
+
+    .left-gallery img {
+      width: 100px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #ffffff;
+    }
+
+    .main-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .main-image img {
+      max-width: 100%;
+      max-height: 300px;
+    }
+
+    .product-info {
+      flex: 1;
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      gap: 50;
+      border-radius: 10px;
+    }
+
+    .product-info h2 {
+      color: rgb(126, 126, 126);
+      margin: 0;
+    }
+
+    .product-info p {
+      margin: 5px 0;
+    }
+
+    .sizes {
+      display: flex;
+      gap: 10px;
+      margin: 10px 0;
+    }
+
+    .sizes div {
+      background-color: #c5c5c5;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo sepatu.png" alt="logo" />
+      <div class="logo-title">NIKE SHOES</div>
+    </div>
+    <nav>
+      <div class="nav">
+      <a href="index.html">HOME</a>
+      <a href="index.html">PRODUK</a>
+      <a href="login.html">LOGIN</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="product-banner">
+    <img src="images/nike brand.webp" alt="banner 1"/>
+  </div>
+
+  <div class="main">
+    <div class="left-gallery">
+      <img src="images/niketnhijau1.webp" alt="img 1"/>
+      <img src="images/niketnhijau2.webp" alt="img 2"/>
+      <img src="images/niketnhijau3.webp" alt="img 3"/>
+    </div>
+    
+    <div class="main-image">
+      <img src="images/nike-hijau.webp" alt="main shoe"/>
+    </div>
+
+    <div class="product-info">
+      <h2>NIKE</h2>
+      <p><strong>air max plus men's sneakers shoes - black</strong></p>
+      <p>Pria</p>
+      <p>RP. 2.389.000</p>
+
+      <p><strong>Ukuran</strong></p>
+      <div class="sizes">
+        <div>38</div>
+        <div>39</div>
+        <div>40</div>
+        <div>41</div>
+        <div>42</div>
+        <div>43</div>
+      </div>
+      <div style="background-color:#d3d3d3; padding:10px; border-radius:10px; text-align:center;">
+        <a href="https://wa.me/6281317529367?text=Halo%2C+saya+mau+pesan+sepatu+ukuran+42" 
+           style="color:rgb(0, 0, 0); text-decoration:none; font-weight:bold;">
+           Lanjut ke WhatsApp
+        </a>
+      </div>
+      
+      
+    </div>
+  </div>
+
+</body>
+</html>
